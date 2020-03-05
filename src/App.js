@@ -22,14 +22,6 @@ function omit(obj, keyToOmit) {
 }
 
 class App extends Component {
-  /*
-  static defaultProps = {
-    store: {
-      lists: [],
-      allCards: {},
-    }
-  };
-  */
 
   state = {
     store: STORE,
